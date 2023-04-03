@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contacto</title>
+	<link rel="stylesheet" type="text/css" href="style_c.css">
+</head>
+<body>
+    <header>
+		<h1>Blog de viajes</h1>
+		<nav>
+			<ul>
+			<li><a href="./Main_Css"><button>Home</button></a></li>
+			<li><a href="./Destinos"><button>Destinations</button></a></li>
+			<li><a href="./Travel Tips"><button>Tips de viaje</button></a></li>
+			<li><a href="./About me"><button>Sobre mi</button></a></li>
+			<li><a href="./Contacto"><button>Contacto</button></a></li>
+            
+
+
+
+			</ul>
+		</nav>
+	</header>
+	<div class="container">
+		<h1>Contacto</h1>
+		<form>
+			<label for="nombre">Nombre:</label>
+			<input type="text" id="nombre" name="nombre" required>
+
+			<label for="correo">Correo electrónico:</label>
+			<input type="email" id="correo" name="correo" required>
+
+			<label for="mensaje">Mensaje:</label>
+			<textarea id="mensaje" name="mensaje" required></textarea>
+
+			<input type="submit" value="Enviar">
+		</form>
+	</div>
+</body>
+</html>
