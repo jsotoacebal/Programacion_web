@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Travel Tips - My Travel Blog</title>
+	<style>
+		body {
+			background-color: #fff;
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+			font-size: 36px;
+			font-weight: bold;
+			text-shadow: 2px 2px #000;
+		}
+		nav {
+			background-color: #f2f2f2;
+			border: 1px solid #ccc;
+			padding: 10px;
+			text-align: center;
+		}
+		nav a {
+			display: inline-block;
+			margin: 0 10px;
+			color: #333;
+			text-decoration: none;
+			font-size: 18px;
+			font-weight: bold;
+			padding: 10px;
+			border-radius: 5px;
+			transition: background-color 0.3s ease;
+		}
+		nav a:hover {
+			background-color: #333;
+			color: #fff;
+		}
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		nav ul li {
+			display: inline-block;
+			margin: 0 10px;
+		}
+		nav ul li a {
+			color: #333;
+			text-decoration: none;
+			font-size: 18px;
+			font-weight: bold;
+			padding: 10px;
+			border-radius: 5px;
+			transition: background-color 0.3s ease;
+		}
+		nav ul li a:hover {
+			background-color: #333;
+			color: #fff;
+		}
+		section {
+			margin: 20px;
+			padding: 20px;
+			background-color: #f2f2f2;
+			border: 1px solid #ccc;
+			box-shadow: 2px 2px #ccc;
+		}
+		h1 {
+			font-size: 28px;
+			font-weight: bold;
+			margin-top: 0;
+			margin-bottom: 20px;
+			text-align: center;
+		}
+		h2 {
+			font-size: 24px;
+			font-weight: bold;
+			margin-top: 20px;
+			margin-bottom: 10px;
+			text-align: center;
+		}
+		p {
+			font-size: 18px;
+			line-height: 1.5;
+			margin-bottom: 20px;
+			text-align: justify;
+		}
+		img {
+			display: block;
+			margin: 0 auto;
+			max-width: 100%;
+			height: auto;
+			border: 1px solid #ccc;
+			padding: 5px;
+			box-shadow: 2px 2px #ccc;
+		}
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			text-align: center;
+		}
+		li {
+			margin-bottom: 10px;
+		}
+		li a {
+			display: inline-block;
+			padding: 10px;
+			background-color: #333;
+			color: #fff;
+			text-decoration: none;
+			border-radius: 5px;
+        }
+</style>
+</head>
+<body>
+    <!--Ver como hacer que quede esteticamente igual-->
+	<li><a href="./mainP3"><header>My Travel Blog</header></a></li>
+	<nav>
+		<ul>
+			<li><a href="./mainP3">Home</a></li>
+			<li><a href="./Destination">Destinations</a></li>
+			<li><a href="./Travel Tips">Travel Tips</a></li>
+			<li><a href="./About me">About Me</a></li>
+			<li><a href="./Contact">Contact</a></li>
+		</ul>
+	</nav>
+	<section>
+		<h1>About Me</h1>
+		<img src="https://example.com/travel-blog/banner.jpg

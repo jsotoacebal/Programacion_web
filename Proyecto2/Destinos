@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Destinos - Blog de viajes</title>
+	<link rel="stylesheet" type="text/css" href="style_m.css">
+</head>
+<body>
+	<header>
+		<h1>Blog de viajes</h1>
+		<nav>
+			<ul>
+			<li><a href="./Main_Css"><button>Home</button></a></li>
+			<li><a href="./Destinos"><button>Destinations</button></a></li>
+			<li><a href="./Travel Tips"><button>Tips de viaje</button></a></li>
+			<li><a href="./About me"><button>Sobre mi</button></a></li>
+			<li><a href="./Contacto"><button>Contacto</button></a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2>Destinos</h2>
+			<ul>
+				<li>
+					<a href="#">
+						<img src="destino1.jpg" alt="Descripción del destino">
+						<h3>Nombre del destino 1</h3>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="destino2.jpg" alt="Descripción del destino">
+						<h3>Nombre del destino 2</h3>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="destino3.jpg" alt="Descripción del destino">
+						<h3>Nombre del destino 3</h3>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="destino4.jpg" alt="Descripción del destino">
+						<h3>Nombre del destino 4</h3>
+					</a>
+				</li>
+			</ul>
+		</section>
+		<aside>
+			<h2>Categorías</h2>
+			<ul>
+				<li><a href="#">Europa</a></li>
+				<li><a href="#">Asia</a></li>
+				<li><a href="#">América</a></li>
+				<li><a href="#">África</a></li>
+			</ul>
+			<h2>Publicidad</h2>
+			<img src="publicidad.jpg" alt="Descripción de la publicidad">
+		</aside>
+	</main>
+	<footer>
+		<p>Derechos de autor © 2023 Blog de viajes</p>
+	</footer>
+</body>
+</html>

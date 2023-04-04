@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Travel Tips - My Travel Blog</title>
+	<style>
+		body {
+			background-color: #fff;
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+			font-size: 36px;
+			font-weight: bold;
+			text-shadow: 2px 2px #000;
+		}
+		nav {
+			background-color: #f2f2f2;
+			border: 1px solid #ccc;
+			padding: 10px;
+			text-align: center;
+		}
+		nav a {
+			display: inline-block;
+			margin: 0 10px;
+			color: #333;
+			text-decoration: none;
+			font-size: 18px;
+			font-weight: bold;
+			padding: 10px;
+			border-radius: 5px;
+			transition: background-color 0.3s ease;
+		}
+		nav a:hover {
+			background-color: #333;
+			color: #fff;
+		}
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		nav ul li {
+			display: inline-block;
+			margin: 0 10px;
+		}
+		nav ul li a {
+			color: #333;
+			text-decoration: none;
+			font-size: 18px;
+			font-weight: bold;
+			padding: 10px;
+			border-radius: 5px;
+			transition: background-color 0.3s ease;
+		}
+		nav ul li a:hover {
+			background-color: #333;
+			color: #fff;
+		}
+		section {
+			margin: 20px;
+			padding: 20px;
+			background-color: #f2f2f2;
+			border: 1px solid #ccc;
+			box-shadow: 2px 2px #ccc;
+		}
+		h1 {
+			font-size: 28px;
+			font-weight: bold;
+			margin-top: 0;
+			margin-bottom: 20px;
+			text-align: center;
+		}
+		h2 {
+			font-size: 24px;
+			font-weight: bold;
+			margin-top: 20px;
+			margin-bottom: 10px;
+			text-align: center;
+		}
+		p {
+			font-size: 18px;
+			line-height: 1.5;
+			margin-bottom: 20px;
+			text-align: justify;
+		}
+		img {
+			display: block;
+			margin: 0 auto;
+			max-width: 100%;
+			height: auto;
+			border: 1px solid #ccc;
+			padding: 5px;
+			box-shadow: 2px 2px #ccc;
+		}
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			text-align: center;
+		}
+		li {
+			margin-bottom: 10px;
+		}
+		li a {
+			display: inline-block;
+			padding: 10px;
+			background-color: #333;
+			color: #fff;
+			text-decoration: none;
+			border-radius: 5px;
+        }
+</style>
+</head>
+<body>
+	<header>My Travel Blog</header>
+	<nav>
+		<ul>
+			<li><a href="./mainP3">Home</a></li>
+			<li><a href="./Destination">Destinations</a></li>
+			<li><a href="./Travel Tips">Travel Tips</a></li>
+			<li><a href="./About me">About Me</a></li>
+			<li><a href="./Contact">Contact</a></li>
+		</ul>
+	</nav>
+    <p> <b> Planificar con anticipación:</b> Haz una lista de los lugares que deseas visitar, reserva tus alojamientos con anticipación e investiga las costumbres y la cultura local. <br>
+
+       <b> Viaja ligero:</b> Solo lleva lo que necesitas y evita llevar demasiado equipaje. Esto te ahorrará dinero en tarifas de equipaje y hará más fácil moverte.<br>
+        
+       <b></b> Investiga los transportes locales:</b> Averigua qué opciones de transporte existen en el lugar que visitarás. Puedes ahorrar dinero y tener una experiencia más auténtica utilizando el transporte público.<br>
+        
+       <b>Sé flexible:</b> A veces los planes pueden cambiar, así que trata de ser flexible y estar preparado para hacer ajustes si es necesario.<br>
+        
+       <b>Haz una lista de emergencia:</b> Asegúrate de tener un plan de emergencia en caso de que ocurra algo inesperado. Incluye números de teléfono importantes, direcciones y cualquier información relevante.<br>
+        
+       <b>Aprende algunas frases en el idioma local:</b> Aprender algunas palabras y frases en el idioma local puede ayudarte a comunicarte mejor con la gente local y hacer que tu experiencia sea más enriquecedora.<br>
+        
+       <b>Sé respetuoso con la cultura local:</b> Investiga las costumbres locales y asegúrate de respetarlas mientras viajas. Esto puede incluir la forma de vestirte, el comportamiento en público y la forma de interactuar con la gente local.<br>
+        
+       <b>Haz copias de tus documentos importantes:</b> Haz copias de tus pasaportes, tarjetas de crédito y otros documentos importantes y mantenlos en un lugar seguro en caso de que pierdas los originales.<br>
+        
+       <b>Trata de conocer a gente local:</b> Una de las mejores formas de conocer una cultura es interactuando con la gente local. Trata de hacer amigos y aprender más sobre el lugar que visitas.<br>
+        
+       <b>Disfruta el momento:</b> Viajar es una oportunidad única para explorar nuevos lugares y conocer gente nueva. Asegúrate de disfrutar el momento y crear recuerdos inolvidables.</p>
+	<section>
+		<h1>Travel Tips</h1>
+		<img src="https://example.com/travel-blog/banner.jpg
