@@ -1,61 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina de prueba</title>
+	<title>Blog de viajes</title>
+	<link rel="stylesheet" type="text/css" href="style_m.css">
 </head>
 <body>
-    <!--Comentario-->
-    <header></header>
-    <main></main>
-    <h1>titulo</h1>
-    <h2>subtitulo</h2>
-    <p>parrafo</p>
-    <!--place holder "Lorem", genera el espacio para un texto futuro-->
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo illo veniam beatae est mollitia distinctio praesentium esse nam, autem similique temporibus expedita magnam laborum tempora. Molestias, soluta! Similique, debitis repudiandae?</p>
-    <!--Lorem*3 = 3 veces el parrafo de lorem-->
-
-    <!--etiqueta que no se cierra-->
-    <img src="./Images/logohtml.png" alt="txt alt por si no carga">
-    <!-- hay place holders de imagenes (hay q buscar)-->
-    <img src="http://placekitten.com/200/300" alt="">
-
-    <!--tipo bloque: ocupa todo el ancho. 
-        In line: ocupa el espacio deterinado de x ejemplo la imagen-->
-
-        <a href="http://google.com">Google</a>
-        <a href="./contacto.html">Pagina de contacto</a>
-        <!-- Para abrir la pagina en otra tab poner target="_blank"-->
-        <a href="http://google.com" target="_blank">Pagina en otra tab</a>
-
-    <!-- Espacio para escribir-->
-        <input type="text">
-    <!-- Se puede poner texto, tipo password o botón-->
-
-    <!-- Poner hipervinculo en un boton-->
-    <a href="http://google.com"><input type="button" value = "No me toques"></a>
-
-    <a href="./Programaci-n_web/Proyecto2/index.html"><input type="button" value = "Proyecto"></a>
-
-    <input type="password" value = "Contraseña">
-    
-    <ul type = "none">
-        <li>Item 1</li>
-        <li>Otro item</li>
-        <li>otra cosa</li>
-    </ul>
-    <!-- Ordenado -->
-    <!-- type = "tipo de icono" start="El primero del orden"-->
-    <ol type="i" start="1">
-        <li>Item 1</li>
-        <li>Otro item</li>
-        <li>otra cosa</li>
-    </ol>
-
-    <div></div>
-    <span></span>
-    <footer></footer>
+	<header>
+		<h1>Blog de viajes</h1>
+		<nav>
+			<ul>
+            <li><a href="./Main_Css"><button>Home</button></a></li>
+			<div class="dropdown">
+					<li class="parent"><a href="#">Destinos</a>
+					<ul class="child">
+						<li class="parent"><a href="./Europa">Europa <span class="expand">»</span></a>
+							<ul class="child">
+								<li><a href="#">Francia</a></li>
+								<li><a href="#">Italia</a></li>
+								<li><a href="#">España</a></li>
+							</ul></li>
+						<li class="parent"><a href="#">America <span class="expand">»</span></a>
+							<ul class="child">
+								<li><a href="#">Argentina</a></li>
+								<li><a href="#">Uruguay</a></li>
+								<li><a href="#">Brasil</a></li>
+							</ul></li>
+						<li class="parent"><a href="#">Asia <span class="expand">»</span></a>
+							<ul class="child">
+								<li><a href="#">Vietnam</a></li>
+								<li><a href="#">Tailandia</a></li>
+							</ul></li>
+						<li class="parent"><a href="#">Africa <span class="expand">»</span></a>
+							<ul class="child">
+								<li><a href="#">Sud Africa</a></li>
+								<li><a href="#">Marruecos</a></li>
+							</ul></li>
+						<li><a href="#">Oceania</a></li>
+				</ul>
+			  </div>
+            <li><a href="./Travel Tips"><button>Tips de viaje</button></a></li>
+            <li><a href="./About me"><button>Sobre mi</button></a></li>
+            <li><a href="./Contacto"><button>Contacto</button></a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<img src="https://viajes.nationalgeographic.com.es/medio/2022/07/13/paris_37bc088a_1280x720.jpg" alt="">
+        
+	</main>
+	<footer>
+		<p>Derechos de autor © 2023 Blog de viajes</p>
+	</footer>
 </body>
+
 </html>
