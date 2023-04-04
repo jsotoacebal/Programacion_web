@@ -142,7 +142,6 @@ footer p {
 }
 img{width: 100%;}
 
-
 .parent {
 	display: block;
 	position: relative;
@@ -196,7 +195,7 @@ ul ul ul {
 }
 
 li:hover {
-	background-color: #95B4CA;
+	background-color: #676767;
 }
 
 .parent li:hover {
