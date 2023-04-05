@@ -13,6 +13,8 @@ header {
 header h1 {
 	margin: 0;
 	font-size: 36px;
+	margin-bottom: 10px;
+
 }
 
 nav ul {
@@ -146,12 +148,10 @@ img{width: 100%;}
 	display: block;
 	position: relative;
 	float: left;
-	line-height: 30px;
 	background-color: #333;
 	border-right: #333 1px solid;
 	cursor: pointer; /* cursor de tipo mano */
 	font-size: 16px; /* tamaño del texto */
-
 }
 
 .parent a {

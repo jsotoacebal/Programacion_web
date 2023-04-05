@@ -9,7 +9,7 @@
 		<h1>Blog de viajes</h1>
 		<nav>
 			<ul>
-			<li><a href="./Main_Css"><button>Home</button></a></li>
+			<li><a href="./index.html"><button>Home</button></a></li>
 			<li><a href="./Destinos"><button>Destinations</button></a></li>
 			<li><a href="./Travel Tips"><button>Tips de viaje</button></a></li>
 			<li><a href="./About me"><button>Sobre mi</button></a></li>

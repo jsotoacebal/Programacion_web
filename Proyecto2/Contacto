@@ -9,15 +9,38 @@
 		<h1>Blog de viajes</h1>
 		<nav>
 			<ul>
-			<li><a href="./Main_Css"><button>Home</button></a></li>
-			<li><a href="./Destinos"><button>Destinations</button></a></li>
-			<li><a href="./Travel Tips"><button>Tips de viaje</button></a></li>
-			<li><a href="./About me"><button>Sobre mi</button></a></li>
-			<li><a href="./Contacto"><button>Contacto</button></a></li>
-            
-
-
-
+			<div class="dropdown">
+					<li class="parent"><a href="#">Home</a>
+					<li class="parent"><a href="./Destinos">Destinos</a>
+					<ul class="child">
+						<li class="parent"><a href="./Europa">Europa <span class="expand">»</span></a>
+							<ul class="child">
+								<li><a href="./Francia">Francia</a></li>
+								<li><a href="#">Italia</a></li>
+								<li><a href="#">España</a></li>
+							</ul></li>
+						<li class="parent"><a href="#">America <span class="expand">»</span></a>
+							<ul class="child">
+								<li><a href="#">Argentina</a></li>
+								<li><a href="#">Uruguay</a></li>
+								<li><a href="#">Brasil</a></li>
+							</ul></li>
+						<li class="parent"><a href="#">Asia <span class="expand">»</span></a>
+							<ul class="child">
+								<li><a href="#">Vietnam</a></li>
+								<li><a href="#">Tailandia</a></li>
+							</ul></li>
+						<li class="parent"><a href="#">Africa <span class="expand">»</span></a>
+							<ul class="child">
+								<li><a href="#">Sud Africa</a></li>
+								<li><a href="#">Marruecos</a></li>
+							</ul></li>
+						<li><a href="#">Oceania</a></li>
+				</ul>
+				<li class="parent"><a href="#">Tips de viaje</a>
+				<li class="parent"><a href="#">Sobre mi</a>
+				<li class="parent"><a href="./Contacto">Contacto</a>
+			  </div>
 			</ul>
 		</nav>
 	</header>

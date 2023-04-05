@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Blog de viajes</title>
-	<link rel="stylesheet" type="text/css" href="style_m.css">
+	<title>Francia</title>
+	<link rel="stylesheet" type="text/css" href="style_d.css">
 </head>
 <body>
 	<header>
@@ -11,14 +11,13 @@
 			<ul>
 			<div class="dropdown">
 					<li class="parent"><a href="#">Home</a>
-					<li class="parent"><a href="./Destinos">Destinos</a>
+					<li class="parent"><a href="#">Destinos</a>
 					<ul class="child">
 						<li class="parent"><a href="./Europa">Europa <span class="expand">»</span></a>
 							<ul class="child">
-								<li><a href="./Francia">Francia</a></li>
+								<li><a href="#">Francia</a></li>
 								<li><a href="#">Italia</a></li>
 								<li><a href="#">España</a></li>
-								<li><a href="#">Andorra</a></li>
 							</ul></li>
 						<li class="parent"><a href="#">America <span class="expand">»</span></a>
 							<ul class="child">
@@ -30,7 +29,6 @@
 							<ul class="child">
 								<li><a href="#">Vietnam</a></li>
 								<li><a href="#">Tailandia</a></li>
-								<li><a href="#">Japón</a></li>
 							</ul></li>
 						<li class="parent"><a href="#">Africa <span class="expand">»</span></a>
 							<ul class="child">
@@ -41,15 +39,15 @@
 				</ul>
 				<li class="parent"><a href="#">Tips de viaje</a>
 				<li class="parent"><a href="#">Sobre mi</a>
-				<li class="parent"><a href="./Contacto">Contacto</a>
+				<li class="parent"><a href="#">Contacto</a>
 			  </div>
 			</ul>
 		</nav>
 	</header>
 	<main>
+	<h1>Francia</h1>
 		<section>
-			<img src="https://touristear.com/wp-content/uploads/2018/06/como-planificar-un-viaje-paso-a-paso-1.jpg" alt="">
-        
+			<img src="https://viajes.nationalgeographic.com.es/medio/2022/07/13/paris_37bc088a_1280x720.jpg" alt="">
 	</main>
 	<footer>
 		<p>Derechos de autor © 2023 Blog de viajes</p>
