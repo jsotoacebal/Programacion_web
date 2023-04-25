@@ -13,6 +13,9 @@ header {
 header h1 {
 	margin: 0;
 	font-size: 36px;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: center;
 }
 
 nav ul {
@@ -59,7 +62,16 @@ li {
 	margin-bottom: 20px;
 }
 
+#Paris{
+	width:50%;
+	height: auto;
+}
 
+.button-container {
+	display: flex;
+	justify-content: center;
+	grid-gap: 25px;
+  }
 
 button {
 	background-color: #333; /* color de fondo */
@@ -171,3 +183,30 @@ font-size: 12px;
 float: right;
 margin-right: 5px;
 }
+
+.container {  display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	grid-template-areas:
+	  "Francia Francia Francia"
+	  "Foto Paris Foto-2"
+	  "texto texto texto";
+  }
+  
+  .Francia { grid-area: Francia; }
+  
+  .Foto { grid-area: Foto; }
+  
+  .Paris { grid-area: Paris; }
+  
+  .Foto-2 { grid-area: Foto-2; }
+
+  .texto { grid-area: texto; }
+  
+  .container {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+  }

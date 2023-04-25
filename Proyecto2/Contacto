@@ -9,7 +9,7 @@
 		<h1>Blog de viajes</h1>
 		<nav>
 			<ul>
-			<div class="dropdown">
+			<div class="button-container">
 					<li class="parent"><a href="#">Home</a>
 					<li class="parent"><a href="./Destinos">Destinos</a>
 					<ul class="child">

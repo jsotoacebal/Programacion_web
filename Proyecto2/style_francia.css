@@ -246,3 +246,67 @@ li:hover {
 	float: right;
 	margin-right: 5px;
 }
+
+#bandera{
+	width:100%;
+	height: 50px;
+}
+
+#torre1{
+	width:100%;
+	height: auto;
+}
+
+.container_titulo {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 1.3fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Rojo Blanco Azul"
+      ". . ."
+      ". . .";
+
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 30px;
+  }
+  
+  .Rojo { grid-area: Rojo; }
+  
+  .Blanco { grid-area: Blanco; }
+  
+  .Azul { grid-area: Azul; }
+
+  .container_lista {  display: grid;
+    grid-template-columns: 1fr 0.9fr 1.1fr;
+    grid-template-rows: 0.1fr 2.1fr 0.4fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Titulo Titulo Titulo"
+      "Texto Texto Foto"
+      ". . .";
+  }
+  
+  .Titulo { grid-area: Titulo; 
+    background-color: #d9d9d9; 
+    margin-bottom: 20px;
+    /* no está afectando */
+    text-align: left; 
+    font-size: 30px;
+}
+  
+  .Texto { grid-area: Texto; 
+    text-align: left; 
+}
+  
+  .Foto { grid-area: Foto; }
+
+  .container {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+  }
