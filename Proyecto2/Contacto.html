@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contacto</title>
+	<link rel="stylesheet" type="text/css" href="style_contacto.css">
+
+</head>
+<body>
+    <header>
+		<a href="index.html">
+		<img id="titulo" src="./Images/logo2.jpg" alt="">
+	</a>
+		<img id="slogan" src="./Images/slogan.jpg" alt="">
+		<nav>
+			<ul>
+			<div class="button-container">
+					<li class="parent"><a href="./index.html">Home</a>
+					<li class="parent"><a href="#">Destinos</a>
+					<ul class="child">
+						<li class="parent"><a href="./Europa.html">Europa <span class="expand">»</span></a>
+							<ul class="child">
+								<li><a href="./Francia.html">Francia</a></li>
+								<li><a href="./Italia">Italia</a></li>
+								<li><a href="#">España</a></li>
+								<li><a href="#">Dinamarca</a></li>
+							</ul></li>
+						<li class="parent"><a href="#">America <span class="expand">»</span></a>
+							<ul class="child">
+								<li><a href="#">Argentina</a></li>
+								<li><a href="#">Uruguay</a></li>
+								<li><a href="#">Brasil</a></li>
+							</ul></li>
+						<li class="parent"><a href="#">Asia <span class="expand">»</span></a>
+							<ul class="child">
+								<li><a href="#">Vietnam</a></li>
+								<li><a href="#">Tailandia</a></li>
+								<li><a href="#">Japón</a></li>
+							</ul></li>
+						<li class="parent"><a href="#">Africa <span class="expand">»</span></a>
+							<ul class="child">
+								<li><a href="#">Sud Africa</a></li>
+								<li><a href="#">Marruecos</a></li>
+							</ul></li>
+						<li><a href="#">Oceania</a></li>
+				</ul>
+				<li class="parent"><a href="./tips.html">Tips de viaje</a>
+				<li class="parent"><a href="#">Sobre mi</a>
+				<li class="parent"><a href="./Contacto.html">Contacto</a>
+			  </div>
+			</ul>
+		</nav>
+	</header>
+	<div class="container">
+		<h1 id="Contacto">Contacto</h1>
+		<form id="contactForm" onsubmit="validateForm(event)">
+			<label for="name">Nombre:</label>
+			<input type="text" id="name" name="name" required>
+			
+			<label for="email">Mail:</label>
+			<input type="email" id="email" name="email" required>
+			
+			<label for="destination">Destino:</label>
+			<input type="text" id="destination" name="destination" required>
+			
+			<label for="message">Mensaje:</label>
+			<textarea id="message" name="message" required></textarea>
+			
+			<button type="submit">Enviar</button>
+		  </form>
+	</div>
+
+	<footer>
+		<p>Derechos de autor © 2023 Blog de viajes</p>
+		
+			<div class="social-icons">
+				<a href="#" class="social-icon twitter"><img id = "tiktok" src= "./Images/twitter.jpg.png" alt=""><i class="fab fa-twitter"></i></a>
+				<a href="#" class="social-icon instagram"><img id="instagram" src="./Images/instagram.png" alt=""><i class="fab fa-instagram"></i></a>
+				<a href="#" class="social-icon gmail"><img id = "mail" src= "./Images/gmail.png" alt=""><i class="fab fa-gmail"></i></a>
+				<a href="#" class="social-icon tiktok"><img id = "tiktok" src= "./Images/tik-tok.png" alt=""><i class="fab fa-tiktok"></i></a>
+
+			  </div>
+	</footer>
+</body>
+<script src="script_contacto.js"></script>
+
+</html>

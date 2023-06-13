@@ -37,23 +37,34 @@ nav a {
 	text-decoration: none;
 }
 
+#titulo{
+	display: block;
+    margin: 0 auto;
+	width:40%;
+	height: 5%;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+#slogan{
+	display: block;
+    margin: 0 auto;
+	width:45%;
+	height: 5%;
+	margin-bottom: 10px;
+	margin-top: 7px;
+}
+
 main {
-	max-width: 1200px;
+	max-width: 100%;
 	margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	padding: 20px;
-}
-
-#principal{
-	width:100%;
-	height: auto;
+	padding: 0px;
 }
 
 section {
 	flex: 2;
-	margin-right: 20px;
 }
 
 section h2 {
@@ -123,11 +134,11 @@ footer {
 footer p {
 	margin: 0
 	}
-
 	.button-container {
 		display: flex;
+		flex-wrap: nowrap;
 		justify-content: center;
-		grid-gap: 25px;
+		grid-gap: 0px;
 	  }
 	  
 	button {
@@ -186,12 +197,11 @@ img{width: 100%;}
 	background-color: #f7f5ef;
 	/* border-right: #333 1px solid; */
 	cursor: pointer; /* cursor de tipo mano */
-	font-size: 16px; /* tamaño del texto */
+	font-size: 12px; /* tamaño del texto */
 	color: #000000
 }
 
 .parent a {
-	margin: 10px;
 	color: #FFFFFF;
 	text-decoration: none;
 	color: #000000
@@ -259,7 +269,7 @@ li:hover {
 
 .container_titulo {  display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.3fr 1.3fr 1fr;
+    grid-template-rows: 0.5fr 0fr 0fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
@@ -271,7 +281,7 @@ li:hover {
       justify-content: center;
       align-items: center;
       text-align: center;
-      font-size: 30px;
+      font-size: 20px;
   }
   
   .Rojo { grid-area: Rojo; }
@@ -280,9 +290,18 @@ li:hover {
   
   .Azul { grid-area: Azul; }
 
+
+  video {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+  }
+
+
   .container_lista {  display: grid;
     grid-template-columns: 1fr 0.9fr 1.1fr;
-    grid-template-rows: 0.1fr 2.1fr 0.4fr;
+    grid-template-rows: 0.2fr 2.1fr 0.4fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
@@ -300,13 +319,89 @@ li:hover {
 }
   
   .Texto { grid-area: Texto; 
-    text-align: left; 
+    text-align: left;
+    margin-left: 10px;
+    display: grid;
+	justify-content: center;
+	align-items: center;
+	font-size: 15px;
+	font-family: Lora;
+
+} 
+  .Foto { grid-area: Foto; 
+    margin-right: 10px
 }
-  
-  .Foto { grid-area: Foto; }
 
   .container {
 	display: grid;
 	justify-content: center;
 	align-items: center;
   }
+
+  
+  .social-icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .social-icon {
+	margin-top: 10px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	margin: 0 10px;
+	border-radius: 50%;
+	background-color: #ccc;
+	color: #fff;
+  }
+  
+  .social-icon i {
+	font-size: 20px;
+  }  
+  .social-icon.twitter {
+	margin-top: 10px;
+	background-color: #d9d9d9;
+  }
+  
+  .social-icon.instagram {
+	margin-top: 10px;
+	background-color: #d9d9d9;
+  }
+  
+  .social-icon.gmail {
+	margin-top: 10px;
+	background-color: #d9d9d9;
+  }
+  
+  .social-icon.tiktok {
+	margin-top: 10px;
+	background-color: #d9d9d9;
+  }
+  
+  @media only screen and (min-width: 768px){
+	#titulo{
+		width:20%;
+		height: 5%;
+	}
+	#slogan{
+		width:17%;
+		height: 5%;
+	}
+	.button-container {
+		display: flex;
+		justify-content: center;
+		grid-gap: 20px;
+	  }
+	.parent {
+		font-size: 16px; /* tamaño del texto */
+	}
+	.parent a {
+		margin: 10px;
+	}
+	.container_titulo { 
+		  font-size: 30px;
+	  }
+}
