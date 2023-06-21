@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Paquetes de turismo</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style_paquetes.css">
+
+</head>
+<body>
+	<header>
+
+		<img id="titulo" src="./Images/logo2.jpg" alt="">
+		<img id="slogan" src="./Images/slogan.jpg" alt="">
+		<nav>
+			<ul>
+			<div class="button-container">
+					<li class="parent"><a href="./index.html">Home</a>
+					<li class="parent"><a href="#">Destinos</a>
+					<ul class="child">
+						<li class="parent"><a href="./Europa.html">Europa <span class="expand">»</span></a>
+							<ul class="child">
+								<li><a href="./Francia.html">Francia</a></li>
+								<li><a href="./Italia">Italia</a></li>
+								<li><a href="#">España</a></li>
+								<li><a href="#">Dinamarca</a></li>
+							</ul></li>
+						<li class="parent"><a href="#">America <span class="expand">»</span></a>
+							<ul class="child">
+								<li><a href="#">Argentina</a></li>
+								<li><a href="#">Uruguay</a></li>
+								<li><a href="#">Brasil</a></li>
+							</ul></li>
+						<li class="parent"><a href="#">Asia <span class="expand">»</span></a>
+							<ul class="child">
+								<li><a href="#">Vietnam</a></li>
+								<li><a href="#">Tailandia</a></li>
+								<li><a href="#">Japón</a></li>
+							</ul></li>
+						<li class="parent"><a href="#">Africa <span class="expand">»</span></a>
+							<ul class="child">
+								<li><a href="#">Sud Africa</a></li>
+								<li><a href="#">Marruecos</a></li>
+							</ul></li>
+						<li><a href="#">Oceania</a></li>
+				</ul>
+				<li class="parent"><a href="./tips.html">Tips de viaje</a>
+				<li class="parent"><a href="./cart.html">Paquetes</a>
+				<li class="parent"><a href="./Contacto.html">Contacto</a>
+			  </div>
+			</ul>
+		</nav>
+	</header>
+      <div id="productos" class="card-group"></div>
+      <div id="carrito" class="card-group"></div>
+      <div id="container">
+        <div id="sidebar">
+          <div id="cart">
+            <h2>Carrito</h2>
+            <div id="carrito" class="card-group"></div>
+            <p id="total"></p>
+            <button id="boton-vaciar" class="boton">Vaciar carrito</button>
+          </div>
+          <div id="buttons">
+            <button id="boton-seguir-comprando" class="boton">Seguir comprando</button>
+            <button id="boton-finalizar" class="boton">Finalizar compra</button>
+          </div>
+        </div>
+        <div id="productos" class="card-group"></div>
+      </div>
+      
+      
+      <script src="script_reserva.js"></script>
+      
+      
+   <footer>
+    <p>Derechos de autor © 2023 Blog de viajes</p>
+    <div class="social-icons">
+        <a href="#" class="social-icon twitter"><img id="twitter" src="./Images/twitter.jpg.png" alt=""><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-icon instagram"><img id="instagram" src="./Images/instagram.png" alt=""><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-icon gmail"><img id="gmail" src="./Images/gmail.png" alt=""><i class="fab fa-gmail"></i></a>
+        <a href="#" class="social-icon tiktok"><img id="tiktok" src="./Images/tik-tok.png" alt=""><i class="fab fa-tiktok"></i></a>
+      </div>
+</footer>
+</body>
+<script src="cart.js"></script>
+</html>
+

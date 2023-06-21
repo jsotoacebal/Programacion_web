@@ -1,4 +1,3 @@
-
 body {
 	margin: 0;
 	padding: 0;
@@ -56,34 +55,14 @@ nav a {
 
 main {
 	max-width: 100%;
-	margin: 0 auto; 
+	margin: 0 0;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center; 
-	align-items: center;
+	justify-content: space-between;
 	margin-right: 0px;
 	padding: 0px;
 	background-color: #f7f5ef;
-  }
 
-#intro_e{
-	background-color: #f7f5ef;
-	font-family: Lora, serif;
-	margin-top: 40px;
-	margin-bottom:40px;
-	margin-right: 5px;
-	margin-left: 5px;
-}
-
-#Europa{
-    font-family: Lora, serif;
-    font-size: 25px;
-	margin-left: 10px;
-}
-
-#foto_pais{
-	width:100%;
-	height: 300px;
 }
 
 section {
@@ -145,7 +124,7 @@ p {
 	margin-bottom: 10px;
 	display: flex;
 	justify-content: center;
-	font-family: Lora, serif;
+	font-family: Lora;
   }
 
 #card_bot{
@@ -153,6 +132,84 @@ p {
 	padding: 10px;
 	border-color: #808385;
 }
+
+#boton-vaciar{
+	background-color: #8d8d8d; 
+	border: none; 
+	color: white; 
+	padding: 10px 30px; 
+	text-align: center; 
+	text-decoration:solid;
+	display: inline-block;	
+	font-size: 18px; 
+	border-radius: 5px; 
+	cursor: pointer;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#boton-seguir-comprando{
+	background-color: #8d8d8d; 
+	border: none; 
+	color: white; 
+	padding: 10px 30px; 
+	text-align: center; 
+	text-decoration:solid; 
+	display: inline-block; 
+	font-size: 18px; 
+	border-radius: 5px; 
+	cursor: pointer;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#boton-finalizar{
+	background-color: #8d8d8d; 
+	border: none; 
+	color: white; 
+	padding: 10px 30px; 
+	text-align: center; 
+	text-decoration:solid; 
+	display: inline-block; 
+	font-size: 18px; 
+	border-radius: 5px; 
+	cursor: pointer;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#container {
+	display: flex;
+  }
+  
+  #sidebar {
+	width: 200px;
+	padding: 20px;
+	background-color: #f2f2f2;
+  }
+  
+  
+  #buttons {
+	margin-top: 20px;
+  }
+  
+  .boton {
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 10px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+  }
+  
+  .boton:hover {
+	background-color: #555;
+  }
 
 /* Footer */
 footer{

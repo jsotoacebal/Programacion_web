@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Paquetes de turismo</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="style_paquetes.css">
+
+</head>
+<body>
+    <header>
+		<a href="index.html"> 
+		<img id="titulo" src="./Images/logo2.jpg" alt="">
+	</a>
+		<img id="slogan" src="./Images/slogan.jpg" alt="">
+		<nav>
+			<ul>
+			<div class="button-container">
+					<li class="parent"><a href="./index.html">Home</a>
+					<li class="parent"><a href="#">Destinos</a>
+					<ul class="child">
+						<li class="parent"><a href="./Europa">Europa <span class="expand">»</span></a>
+							<ul class="child">
+								<li><a href="./Francia.html">Francia</a></li>
+								<li><a href="./Italia">Italia</a></li>
+								<li><a href="#">España</a></li>
+								<li><a href="#">Dinamarca</a></li>
+							</ul></li>
+						<li class="parent"><a href="#">America <span class="expand">»</span></a>
+							<ul class="child">
+								<li><a href="#">Argentina</a></li>
+								<li><a href="#">Uruguay</a></li>
+								<li><a href="#">Brasil</a></li>
+							</ul></li>
+							<li class="parent"><a href="#">Asia <span class="expand">»</span></a>
+								<ul class="child">
+									<li><a href="#">Vietnam</a></li>
+									<li><a href="#">Tailandia</a></li>
+									<li><a href="#">Japón</a></li>
+								</ul></li>
+							<li class="parent"><a href="#">Africa <span class="expand">»</span></a>
+								<ul class="child">
+									<li><a href="#">Sud Africa</a></li>
+									<li><a href="#">Marruecos</a></li>
+								</ul></li>
+							<li><a href="#">Oceania</a></li>
+				</ul>
+				<li class="parent"><a href="./tips.html">Tips de viaje</a>
+				<li class="parent"><a href="#">Sobre mi</a>
+				<li class="parent"><a href="./Contacto.html">Contacto</a>
+			  </div>
+			</ul>
+		</nav>
+	</header>
+  <div class="container">
+    <h1>Available Tourism Packages</h1>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img id="foto_pais" src="./Images/francia.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Francia</h5>
+              <p class="card-text">
+                Descubre los impresionantes monumentos de París en nuestro paquete turístico. Visita la Torre Eiffel, el icónico Museo del Louvre, la Catedral de Notre Dame y el Arco de Triunfo. Sumergite en la historia y la belleza de la ciudad del amor con este recorrido. ¡Reserva ahora y vive una experiencia inolvidable en París!              </p>
+              <a id="paris-btn" href="#" class="btn btn-primary">Comprar paquete Paris</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img id="foto_pais" src="./Images/italia.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Italia</h5>
+               <p class="card-text">
+                Explora la belleza renacentista de Florencia con nuestro paquete turístico. Descubre la magnífica Catedral de Santa María del Fiore, la Galería Uffizi y el icónico Puente Vecchio. Sumérgete en el arte, la historia y la cultura de esta encantadora ciudad italiana. ¡Reserva ahora y vive la magia de Florencia!                </p>
+               <a id="florence-btn" href="#" class="btn btn-primary">Comprar paquete Florencia</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img id="foto_pais"src="./Images/españa.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">España</h5>
+              <p class="card-text">
+                Descubre la vibrante ciudad de Barcelona con nuestro paquete turístico. Explora la arquitectura de Gaudí en la Sagrada Familia y el Parque Güell, maravíllate con Las Ramblas y disfruta de las playas mediterráneas. Sumérgete en la cultura, la gastronomía y el encanto de esta ciudad cosmopolita. ¡Reserva ahora y vive la experiencia única de Barcelona!              </p>
+              <a id="barcelona-btn" href="#" class="btn btn-primary">Comprar paquete Barcelona</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img id="foto_pais" src="./Images/dinamarca.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dinamarca</h5>
+              <p class="card-text">
+                Embárcate en una aventura en Copenhague con nuestro paquete turístico. Descubre el encanto de Nyhavn, visita el Palacio de Amalienborg y maravíllate con la estatua de la Sirenita. Explora la modernidad del diseño danés y disfruta de la cultura acogedora de esta hermosa ciudad. ¡Reserva ahora y sumérgete en Copenhague!              </p>
+              <a id="copenhagen-btn" href="#" class="btn btn-primary">Comprar paquete Copenhague</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="row" id="packages-container">
+      <!-- Packages will be dynamically added here -->
+    </div>
+  </div>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <footer>
+    <p>Derechos de autor © 2023 Blog de viajes</p>
+    <div class="social-icons">
+        <a href="#" class="social-icon twitter"><img id="twitter" src="./Images/twitter.jpg.png" alt=""><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-icon instagram"><img id="instagram" src="./Images/instagram.png" alt=""><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-icon gmail"><img id="gmail" src="./Images/gmail.png" alt=""><i class="fab fa-gmail"></i></a>
+        <a href="#" class="social-icon tiktok"><img id="tiktok" src="./Images/tik-tok.png" alt=""><i class="fab fa-tiktok"></i></a>
+      </div>
+</footer>
+</body>
+<script src="script_paquete.js"></script>
+</html>

@@ -6,5 +6,3 @@ localStorage.getItem("edad_usuario")
 
 localStorage.clear()
 localStorage.removeItem("edad_usuario")
-
-//

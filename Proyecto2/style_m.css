@@ -210,12 +210,10 @@ footer p {
 		grid-gap: 0px;
 	  }
 	  
-	  /* Estilo de botón cuando el cursor está encima */
 	  button:hover {
 		background-color: #808385; /* color de fondo más oscuro */
 	  }
 	  
-	  /* Estilo de botón cuando se presiona */
 	  button:active {
 		background-color: #ffffff; /* color de fondo aún más oscuro */
 	  }
