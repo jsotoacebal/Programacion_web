@@ -10,7 +10,6 @@ header {
 	color: #fff;
 	padding: 10px;
 	color: #000000; 
-	z-index: 2;
 
 }
 
@@ -129,22 +128,35 @@ p {
 	font-family: Lora;
   }
 
-#card_bot{
-	position: relative;
-	background-color: #808385;
-	padding: 10px;
-	border-color: #808385;
-}
-
 
 #productos{
 	position: relative;
 	background-color: #f7f5ef;
 	padding: 5px;
-	border-color: #808385;
+	border-color: #858080;
 	z-index: 1;
-
 }
+
+.card {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 10px;
+	z-index:0
+  }
+  
+  .btn {
+	background-color: #7c7f80;
+	color: #fff;
+	border: none;
+	padding: 5px 10px;
+	cursor: pointer;
+  }
+  
+  .btn:hover {
+	background-color: #212426;
+  }
+
 
 #boton-vaciar{
 	background-color: #8d8d8d; 
@@ -321,9 +333,10 @@ footer p {
 		background-color: #ffffff; 
 	  }
 	  
-	  .dropdown {
-  display: inline-block;
-  position: relative;
+.dropdown {
+  	display: inline-block;
+	position: relative;
+	z-index: 3;
 }
 .dropdown-content {
   display: none;
@@ -332,6 +345,8 @@ footer p {
   overflow: auto;
   box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
   background-color: #e3e1e1;
+  z-index: 4;
+
 
 }
 .dropdown:hover .dropdown-content {
@@ -354,9 +369,8 @@ img{width: 100%;}
 	position: relative;
 	float: left;
 	background-color: #f7f5ef;
-	/* }border-right: #333 1px solid; */
-	cursor: pointer; /* cursor de tipo mano */
-	font-size: 12px; /* tamaño del texto */
+	cursor: pointer; 
+	font-size: 12px; 
 	color: #000000
 }
 
@@ -378,8 +392,7 @@ img{width: 100%;}
 .child li {
 	background-color: #ffffff;
 	line-height: 35px;
-	/*border-bottom: #CCC 1px solid;*/
-	/*border-right: #CCC 1px solid;*/
+
 	width: 100%;
 }
 

@@ -11,6 +11,8 @@ header {
 	color: #fff;
 	padding: 10px;
 	color: #000000; 
+	font-family: Lora, serif;
+
 }
 
 header h1 {
@@ -19,6 +21,7 @@ header h1 {
 	margin-bottom: 10px;
 	display: flex;
 	justify-content: center;
+
 }
 
 #titulo{
@@ -79,6 +82,7 @@ main {
     font-family: Lora, serif;
     font-size: 25px;
 	margin-left: 10px;
+	margin-top: 10px;
 }
 
 #foto_pais{
