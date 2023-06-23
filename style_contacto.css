@@ -155,25 +155,28 @@ footer p {
 	  }
 	  
 	button {
-		background-color: #f7f5ef; /* color de fondo */
-		color: #000000; /* color del texto */
-		border: none; /* sin borde */
-		border-radius: 5px; /* bordes redondeados */
-		padding: 10px 20px; /* relleno interno */
-		font-size: 16px; /* tamaño del texto */
-		cursor: pointer; /* cursor de tipo mano */
+		background-color: #56bbf1;
+		color: #000000; 
+		border: none; 
+		border-radius: 5px; 
+		padding: 10px 20px; 
+		font-size: 16px; 
+		cursor: pointer; 
 		display: flex;
-
+		justify-content: center;
+		margin-bottom: 15px;
+		margin-left: 100px;
+		margin-right: 100px;
+	
 	  }
 	  
-	  /* Estilo de botón cuando el cursor está encima */
 	  button:hover {
-		background-color: #808385; /* color de fondo más oscuro */
+		background-color: #24526b;
+		color: #FFFFFF;
 	  }
 	  
-	  /* Estilo de botón cuando se presiona */
 	  button:active {
-		background-color: #ffffff; /* color de fondo aún más oscuro */
+		background-color: #ffffff; 
 	  }
 	  
 	  .dropdown {

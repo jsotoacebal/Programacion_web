@@ -137,6 +137,8 @@ function renderizarCarrito() {
     miNodoBoton.style.marginRight = '5px';
     miNodoBoton.dataset.item = item.id;
     miNodoBoton.addEventListener('click', borrarItemCarrito);
+    miNodoBoton.style.backgroundColor = 'red';
+    miNodoBoton.style.color = 'white'
 
     miNodo.appendChild(miNodoBoton);
     DOMcarrito.appendChild(miNodo);
