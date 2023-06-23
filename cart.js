@@ -53,7 +53,7 @@ const DOMbotonFinalizar = document.querySelector('#boton-finalizar');
 const DOMbotonSeguirComprando = document.querySelector('#boton-seguir-comprando');
 
 DOMbotonSeguirComprando.addEventListener('click', function() {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+  window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
 });
 
 function guardarCarritoEnLocalStorage() {
@@ -66,6 +66,15 @@ function cargarCarritoDesdeLocalStorage() {
     renderizarCarrito();
   }
 }
+
+const sidebar = document.getElementById('sidebar');
+const toggleBtn = document.getElementById('toggleBtn');
+
+toggleBtn.addEventListener('click', function() {
+  sidebar.classList.toggle('closed');
+});
+
+
 
 function renderizarProductos() {
   baseDeDatos.forEach((info) => {
@@ -187,3 +196,4 @@ DOMbotonFinalizar.addEventListener('click', finalizarCompra);
 cargarCarritoDesdeLocalStorage();
 renderizarProductos();
 renderizarCarrito();
+
